@@ -11,7 +11,7 @@ userOpinoin = input("Want to run loop? (yes/no): ")
 startingpoint = 0
 endingpoint = 20
 
-if userOpinoin == "yes" | userOpinoin == "Yes"| userOpinoin == "YES" | userOpinoin == "y" | userOpinoin == "Y":
+if userOpinoin in ["yes", "YES", "Yes", "y", "Y"]:
     while startingpoint <= endingpoint:
         print(startingpoint)
         startingpoint += 1 
