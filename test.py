@@ -7,13 +7,5 @@ else:
     print("The number is negative")
 
 
-userOpinoin = input("Want to run loop? (yes/no): ")
-startingpoint = 0
-endingpoint = 20
-
-if userOpinoin in ["yes", "YES", "Yes", "y", "Y"]:
-    while startingpoint <= endingpoint:
-        print(startingpoint)
-        startingpoint += 1 
-else:
-    print("Thank you for using the program")
+for i in range(0,21):
+    print(i)
